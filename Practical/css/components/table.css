@@ -1,0 +1,52 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table tr {
+}
+
+.table td,
+.table th {
+  border:2px solid black;
+  padding: 10px 15px;
+}
+
+.table-border-blue td,
+.table-border-blue th {
+  border: 1px solid var(--blue);
+}
+
+.table-border-pink td,
+.table-border-pink th {
+  border: 1px solid var(--pink);
+}
+.table .thead-blue {
+  background-color: var(--blue);
+  color: white;
+}
+
+.table .thead-pink {
+  background-color: var(--pink);
+  color: white;
+}
+
+.table-hover tbody tr:hover {
+  background-color: var(--gray-hover);
+}
+.table-border-blue.table-hover tbody tr:hover {
+  background-color: rgb(207, 229, 252);
+}
+.table-border-pink.table-hover tbody tr:hover {
+  background-color: rgb(247, 211, 229);
+}
+
+.table-strip tbody tr:nth-child(odd) {
+  background-color: rgb(235, 235, 235);
+}
+.table-border-blue.table-strip tbody tr:nth-child(odd) {
+  background-color: rgb(212, 230, 247);
+}
+.table-border-pink.table-strip tbody tr:nth-child(odd) {
+  background-color: rgb(255, 212, 241);
+}

@@ -1,0 +1,21 @@
+@import url(@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Rubik&display=swap');
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+
+@import url(./components/_variables.css);
+
+@import url(./components/_global.css);
+
+@import url(./components/_utilities.css);
+
+@import url(./components/_btn.css);
+
+@import url(./components/_text.css);
+@import url(./components/table.css);
+@import url(./components/_list.css);
+@import url(./components/_menu.css);
+@import url(./components/_card.css);
+
+@import url(./components/_form.css);
+
+

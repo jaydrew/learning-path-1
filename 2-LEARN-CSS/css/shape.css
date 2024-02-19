@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 50px;
+}
+
+
+.ribbon{
+position: relative;
+display: inline-block;
+}
+
+.sql{
+border: 30px solid #8db5fe;
+display: inline-block;
+position: absolute;
+top: 10px;
+border-left-color: transparent;
+}
+
+
+.sqr{
+    border: 30px solid #8db5fe;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: -50px;
+    border-right-color: transparent;
+    }
+
+    .rec::before{
+        content: "";
+        border: 5px solid transparent;
+        border-top-color: #0c1f74;
+        border-right-color: #0c1f74;
+        display: inline-block;
+        position: absolute;
+        left:0 ;
+        bottom: -10px;
+    }
+
+
+    .rec::after{
+        content: "";
+        border: 5px solid transparent;
+        border-top-color: #0c1f74;
+        border-left-color: #0c1f74;
+        display: inline-block;
+        position: absolute;
+        right:0 ;
+        bottom: -10px;
+    }
+
+.rec{
+background-color: #377dff;
+color: #fff;
+height: 60px;
+text-align: center;
+line-height: 60px;
+width: 200px;
+display: inline-block;
+position: relative;
+margin-left: 50px;
+z-index: 3;
+}
+
+
+
+.price-tag{
+    background-color: #377dff;
+    display: inline-block;
+    color: #fff;
+    height: 60px;
+    font-size: 25px;
+    padding: 0 30px;
+    line-height: 60px;
+    position: relative;
+    margin-left: 30px;
+}
+
+
+.price-tag::after{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    top: 20px;
+    left: -10px;
+    border-radius: 50%;
+    border: 3px solid gold;
+}
+
+.price-tag::before{
+    content: "";
+    border: 30px solid transparent;
+    border-right-color: #377dff;
+    border-left-width: 0;
+    display: inline-block;
+    position:absolute;
+    top: 0;
+    left: -30px;
+}
+
+.sq1{
+    width: 120px;
+    height: 120px;
+    background-color: #377dff;
+    /* margin-bottom: 20px; */
+}
+
+.sq2{
+    background-color: #377dff;
+    /* padding: 60px; */
+    display: inline-block;
+    border: 60px solid black;
+    border-top-color:lightskyblue ;
+    border-bottom-color: lightgreen;
+    border-right-color: olive;
+    border-left-color: purple;
+    /* margin-bottom: 20px; */
+}
+.sq3{
+border: 60px solid #377dff;
+border-right-color: yellow;
+border-top-color: rgb(236, 106, 106);
+border-left-color: rgb(10, 142, 218);
+border-bottom-color: rgb(29, 180, 9);
+
+display: inline-block;
+
+}
+.sq4{
+    background-color:#dfe2e9;
+    padding: 60px;
+    display: inline-block;
+    border: 5px dashed #377dff;
+
+   
+    /* margin-bottom: 20px; */
+}
+.sq5{
+    background-color: #d8e3f7;
+    padding: 60px;
+    display: inline-block;
+    border-left: 4px solid #377dff ;
+    /* margin-bottom: 20px; */
+}
+
+.circle1{
+    width: 120px;
+    height: 120px;
+    background-color: #e4e8f0;
+    border-radius: 50%;
+    border: 4px dashed #377dff;
+    /* margin-bottom: 20px; */
+}
+.circle{
+    width: 120px;
+    height: 120px;
+    background-color: #377dff;
+    border-radius: 50%;
+    /* margin-bottom: 20px; */
+}
+
+.d{
+    background-color: #377dff;
+    padding: 60px;
+    display: inline-block;
+    border-radius: 0 50% 50% 0;
+    /* margin-bottom: 20px; */
+}
+.drop{
+border: 60px solid #377dff;
+display: inline-block;
+border-radius:0 50% 50% 50%;
+
+}
+
+.leaf{
+border: 60px solid #377dff;
+display: inline-block;
+border-radius:0 50% 0 50%;
+}
+
+ /* .img{
+    width: 60px;
+    height: 50px;
+    object-fit: cover;
+    object-position: top;
+   border: 4px solid black;
+ } */
+
+
+ footer{
+background-color: #d8e5fd;
+width: 100%;
+height: 500px;
+position: relative;
+ }
+
+ .footer-text{
+background-color: #606266;
+width: 350px;
+height: 150px;
+color: #e79803;
+position: absolute;
+top: -30px;
+left: 30px;
+padding: 20px;
+box-sizing: border-box;
+ }
+
+ .footer-text::before{
+    content: "";
+    border: 15px solid transparent;
+    border-right-color: #1c1c1d;
+    border-right-width: 7px;
+    border-left-width: 7px;
+    border-bottom-color: #1c1c1d;
+    position: absolute;
+    top: 0;
+    left: -14px;
+ }
+ 
+ .click-path-text{
+    /* clip-path: polygon(22% 1%, 76% 0, 100% 100%, 75% 75%, 50% 100%, 24% 76%, 0 100%); */
+    object-fit: cover;
+    object-position:top;
+    border: 3px solid black;
+ }

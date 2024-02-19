@@ -1,0 +1,32 @@
+.heading{
+    background-color: gray;
+    /* display: block; */
+    /* display: none; */
+    /* visibility: hidden; */
+    /* height: 100px;
+    width: 300px; */
+
+}
+
+.test{
+    display: inline;
+    background-color: skyblue;
+}
+.Link{
+    background-color: skyblue;
+    display: block;
+    width: 300px;
+    height: 100px;
+}
+
+.img{
+     width: 350px;
+     height: 450px;  
+}
+
+.me{
+    border: 5px solid skyblue;
+    padding: 20px 40px;
+    margin: 50px 25px;
+    width: 500px;
+}

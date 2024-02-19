@@ -1,0 +1,60 @@
+body{
+    height: 3000px;
+}
+
+.box{
+    border: 3px  solid black;
+    margin: 50px;
+    height: 500px;
+    position: relative;
+}
+
+.obj:nth-child(1){
+    width: 200px;
+    position: absolute;
+    z-index: 15;
+}
+
+.obj:nth-child(2){
+    width: 200px;
+    /* position: relative;
+    top: 20px;
+    left: 50px; */
+
+    /* position: fixed;
+    bottom: 20px;
+    left: 10px; */
+
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    z-index: 12;
+      }
+
+
+
+.obj:nth-child(3){
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: -100px;
+    left: -100px;
+    z-index: 2;
+  }
+
+  .text{
+    background-color: orange;
+     position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+
+
+  }
+
+  .para{
+    background-color: skyblue;
+    color: gray;
+    position: absolute;
+    /* z-index: 200; */
+  }

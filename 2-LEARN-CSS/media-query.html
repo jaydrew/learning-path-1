@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Media Query</title>
+    <style>
+        h1{
+            font-size: 100px;
+            color: orange;
+            font-family: serif;
+        }
+
+        @media screen and (max-width:920px){
+            h1{
+                font-size: 40px;
+                color: skyblue;
+            }
+        }
+
+        .print-only{
+            display: none;
+        }
+
+        @media screen and (max-width:480px){
+            h1{
+                font-size: 20px;
+                color: pink;
+            }
+        }
+
+        @media print {
+            h1{
+                color:green;
+            }
+            .print-only{
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Min Ga La Par Byar</h1>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur quae quibusdam, officiis sunt eaque reiciendis repellat enim magnam, perferendis, ad reprehenderit? Asperiores, temporibus modi. Consequuntur ducimus tenetur iusto quibusdam excepturi.
+
+    </p>
+
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem quaerat dolore ab ratione rerum accusamus voluptatem cum? Architecto eveniet non modi rem nobis nesciunt quae rerum officia! Perferendis, dolor ab.
+    </p>
+    <p class="print-only">
+        greeting text ဝယ်ယူအားပေးမှုအတွက်ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။
+    </p>
+</body>
+</html>

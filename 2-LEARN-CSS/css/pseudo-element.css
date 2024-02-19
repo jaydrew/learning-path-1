@@ -1,0 +1,28 @@
+.obj{
+    background-color: rgb(235, 220, 11);
+    display: inline-block;
+}
+
+.obj::before{
+    content:" Good ";
+    background-color: skyblue;
+}
+
+.obj::after{
+    content: " is me.";
+    background-color: lightsalmon;
+}
+.para{}
+
+
+.para::first-letter{
+    font-size: 50px;
+}
+
+.para::first-line{
+    color: rgb(245, 170, 9);
+}
+
+.para::selection{
+    background:rgb(93, 231, 12);
+}
